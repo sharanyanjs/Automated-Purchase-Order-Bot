@@ -1,0 +1,13 @@
+1. Open Program: saplogon.exe
+2. Use Recorder to:
+   - Enter username/password
+   - Click login
+3. Enter transaction code: ME22N
+4. Read Excel: PO_List.xlsx
+5. Loop through records:
+   - Set PO number
+   - Update fields
+   - Save
+   - Take Screenshot
+6. Send Email with screenshot
+7. Close SAP
