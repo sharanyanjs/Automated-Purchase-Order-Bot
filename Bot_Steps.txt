@@ -1,0 +1,14 @@
+Step-by-Step Bot Flow:
+
+1. Open SAP Logon (or simulated SAP file in Excel)
+2. Log in to SAP (or skip if simulating)
+3. Read purchase orders from PO_List.xlsx
+4. Loop through each PO:
+    a. Enter PO number
+    b. Update Vendor, Amount, Status
+    c. Save changes
+    d. Take screenshot
+5. Send email with screenshot
+6. Close SAP
+
+If SAP is not available, use SAP_Mockup.xlsx to simulate updates.
